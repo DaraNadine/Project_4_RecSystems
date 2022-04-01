@@ -13,3 +13,4 @@ Our data comes form the MovieLens Data set.https://grouplens.org/datasets/moviel
 ![image](https://i.imgur.com/RkNXafC.png)
 ![image](https://i.imgur.com/7yLMe0b.png)
 # Conclusion
+We decide to get with the knn tuned model. It provided us with the best accuracy score and RMSE score as well. With this we have faith in our reccomendtion system.This will be a great algorithm for spotify to uitilze in their goal of a great reccomendation system for users. Through collaboartive filtering we built a model that takes into account the rating from the current user and compares it against the the existing ratings from other users on the platform to find title recommendations that could best match the current user.
