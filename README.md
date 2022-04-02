@@ -10,7 +10,9 @@ Our data comes form the MovieLens Data set.https://grouplens.org/datasets/moviel
 
 
 # Modeling
+We first started with a baseline model. With this baseline model, KNN basic model without chnaging any parameters. This produced procuded a Mean Accuracy Error of .73 and RMSE of .95 So we want to see if we can produce a model that beats this one out. Our final model a KNN model with tuned parameters gave us the a RMSE of .95. Witht this we were also able to produce a reccoemndation of 5 movies for a user. 
+
 ![image](https://i.imgur.com/RkNXafC.png)
 ![image](https://i.imgur.com/7yLMe0b.png)
 # Conclusion
-We decide to get with the knn tuned model. It provided us with the best accuracy score and RMSE score as well. With this we have faith in our reccomendtion system.This will be a great algorithm for spotify to uitilze in their goal of a great reccomendation system for users. Through collaboartive filtering we built a model that takes into account the rating from the current user and compares it against the the existing ratings from other users on the platform to find title recommendations that could best match the current user.
+We decide to get with the knn tuned model. It provided us with the best accuracy score and RMSE score as well. With this we have faith in our reccomendtion system.This will be a great algorithm for spotify to uitilze in their goal of a great reccomendation system for users. Through collaboartive filtering we built a model that takes into account the rating from the current user and compares it against the the existing ratings from other users on the platform to find title recommendations that could best match the current user.Next steps would be implementing a cold start reccomendation. system for users with no history on the site. 
